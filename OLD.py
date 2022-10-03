@@ -35,9 +35,7 @@ def runtxt(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-logo = """
-\033[1;33mNOTE:\033[1;32mCP IDS JUST NOW OPEN KARNE KE LIIYE PEHLE FB OFFICIAL KA DATA CLEAR KARKE PHIR LOGIN KARNA 
-"""
+logo = """\033[1;33mCP IDS JUST NOW OPEN KARNE KE LIIYE PEHLE FB OFFICIAL KA DATA CLEAR KARKE PHIR LOGIN KARNA"""
 
 plist = (platform.uname())[2]
 basex = plist

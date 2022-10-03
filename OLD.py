@@ -452,7 +452,7 @@ class Main:
   "Mozilla/5.0 (Linux; Android 9; Infinix X650C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36",
         ])
 		sys.stdout.write(
-			"\r\r%s\033[1;32m[+]COUNTING [%s|%s] [OK:%s]  [CP:%s]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\%s\033[1;32m[+]COUNTING [%s|%s] [OK:%s]  [CP:%s]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 			); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
